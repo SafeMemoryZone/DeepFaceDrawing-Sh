@@ -13,9 +13,9 @@ A script to set up DeepFaceDrawing on Ubuntu WSL 2.
 
 1. Create a new WSL 2 Ubuntu environment.
 
-2. Run the installation script:
+2. Run the installation script (or clone the repo and run it directly):
 ```bash
-sudo sh install.sh
+curl https://raw.githubusercontent.com/SafeMemoryZone/DeepFaceDrawing-Sh/refs/heads/master/install.sh | sudo sh
 ```
 
 3. Finally, execute the test model script:
